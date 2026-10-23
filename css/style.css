@@ -80,8 +80,8 @@ p{margin:0 0 1em}
 .topf .vorne{z-index:3}
 .etikett{display:block;position:relative;z-index:2;width:76%;margin:0 auto -34px;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
 .etikett .kopfteil{display:block;position:relative;background:linear-gradient(100deg,#fffdf6 0%,var(--etikett) 55%,#f1ecdd 100%);border-radius:9px 9px 4px 4px;padding:0 10px 12px;box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 -1px 0 rgba(0,0,0,.05) inset,2px 4px 10px rgba(0,0,0,.18);min-height:158px;text-align:center}
-.etikett .kopfteil::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.55) 0 18%,transparent 34%);pointer-events:none}
-.etikett .band{display:block;margin:0 -10px 8px;padding:5px 8px 4px;border-radius:9px 9px 0 0;background:var(--blatt);color:#e9f0dc;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;font-weight:650}
+.etikett .kopfteil::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.4) 0 16%,transparent 32%);pointer-events:none}
+.etikett .band{position:relative;z-index:1;display:block;margin:0 -10px 8px;padding:5px 8px 4px;border-radius:9px 9px 0 0;background:var(--blatt);color:#e9f0dc;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;font-weight:650}
 .etikett .name{display:block;font:400 1.55rem/1.02 var(--hand);color:#2a2a2a}
 .etikett .zusatz{display:block;font-size:.78rem;color:var(--tinte-2);margin-top:4px;line-height:1.25}
 .etikett .pfeil{display:inline-block;margin-top:6px;font-size:.8rem;font-weight:700;color:var(--blatt)}
