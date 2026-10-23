@@ -1,2 +1,3 @@
-# entwurf-23
-Entwurf
+# Entwurf
+
+Unverbindlicher Website-Entwurf von Leon Oßendorf. Kein offizieller Auftritt des Betriebs. Nicht indexieren.
